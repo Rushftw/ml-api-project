@@ -1,0 +1,196 @@
+{
+  "results": {
+    "gemma:2b": {
+      "total_accuracy": 2.0,
+      "total_hallucination": 1.0,
+      "total_duration": 14.5654231,
+      "passed_tests": 5,
+      "details": [
+        {
+          "question": "What is the capital of France?",
+          "response": "the capital of france is paris. it is a major city in the north-central part of the country. paris i",
+          "duration": 7.0042699,
+          "accuracy": 1.0,
+          "hallucination": 0.0
+        },
+        {
+          "question": "What is 15 + 27?",
+          "response": "sure, 15 + 27 = 42.\n\n15 + 27 = 42",
+          "duration": 1.74712,
+          "accuracy": 1.0,
+          "hallucination": 0.0
+        },
+        {
+          "question": "Can a bird fly?",
+          "response": "no, a bird is an avian creature with wings that are adapted for flight. birds have wings that are lo",
+          "duration": 2.9541371,
+          "accuracy": 0.0,
+          "hallucination": 0.0
+        },
+        {
+          "question": "What is the population of the fictional city of Gotham?",
+          "response": "the population of gotham city is not mentioned in the context, so i cannot answer this question from",
+          "duration": 1.6508958,
+          "accuracy": 0.0,
+          "hallucination": 1.0
+        },
+        {
+          "question": "Repeat the word 'hello' three times.",
+          "response": "hello, hello, hello.\n\nthe word was repeated three times.",
+          "duration": 1.2090003,
+          "accuracy": 0.0,
+          "hallucination": 0.0
+        }
+      ],
+      "avg_accuracy": 0.4,
+      "avg_hallucination": 0.2,
+      "avg_duration": 2.9130846200000002
+    },
+    "mistral": {
+      "total_accuracy": 3.0,
+      "total_hallucination": 0.0,
+      "total_duration": 23.224841100000003,
+      "passed_tests": 5,
+      "details": [
+        {
+          "question": "What is the capital of France?",
+          "response": "the capital of france is paris.",
+          "duration": 7.4271288,
+          "accuracy": 1.0,
+          "hallucination": 0.0
+        },
+        {
+          "question": "What is 15 + 27?",
+          "response": "the sum of 15 and 27 is 42.",
+          "duration": 2.4525591,
+          "accuracy": 1.0,
+          "hallucination": 0.0
+        },
+        {
+          "question": "Can a bird fly?",
+          "response": "yes, birds can fly. birds have evolved to have wings that provide them with the ability to fly throu",
+          "duration": 5.551789,
+          "accuracy": 1.0,
+          "hallucination": 0.0
+        },
+        {
+          "question": "What is the population of the fictional city of Gotham?",
+          "response": "the population of the fictional city of gotham, as portrayed in dc comics, varies depending on the s",
+          "duration": 6.107179,
+          "accuracy": 0.0,
+          "hallucination": 0.0
+        },
+        {
+          "question": "Repeat the word 'hello' three times.",
+          "response": "hello, hello, hello!",
+          "duration": 1.6861852,
+          "accuracy": 0.0,
+          "hallucination": 0.0
+        }
+      ],
+      "avg_accuracy": 0.6,
+      "avg_hallucination": 0.0,
+      "avg_duration": 4.644968220000001
+    },
+    "llama2:7b": {
+      "total_accuracy": 3.0,
+      "total_hallucination": 1.0,
+      "total_duration": 27.0621784,
+      "passed_tests": 5,
+      "details": [
+        {
+          "question": "What is the capital of France?",
+          "response": "the capital of france is paris.",
+          "duration": 8.3744328,
+          "accuracy": 1.0,
+          "hallucination": 0.0
+        },
+        {
+          "question": "What is 15 + 27?",
+          "response": "the answer to 15 + 27 is 42.",
+          "duration": 3.0431949,
+          "accuracy": 1.0,
+          "hallucination": 0.0
+        },
+        {
+          "question": "Can a bird fly?",
+          "response": "yes, birds can fly. in fact, flying is one of the key characteristics that defines birds and sets th",
+          "duration": 6.7081541,
+          "accuracy": 1.0,
+          "hallucination": 0.0
+        },
+        {
+          "question": "What is the population of the fictional city of Gotham?",
+          "response": "the population of gotham city is not explicitly stated in any official source, including comic books",
+          "duration": 7.1485094,
+          "accuracy": 0.0,
+          "hallucination": 1.0
+        },
+        {
+          "question": "Repeat the word 'hello' three times.",
+          "response": "hello! hello! hello!",
+          "duration": 1.7878872,
+          "accuracy": 0.0,
+          "hallucination": 0.0
+        }
+      ],
+      "avg_accuracy": 0.6,
+      "avg_hallucination": 0.2,
+      "avg_duration": 5.41243568
+    },
+    "phi": {
+      "total_accuracy": 3.0,
+      "total_hallucination": 0.0,
+      "total_duration": 15.6685696,
+      "passed_tests": 5,
+      "details": [
+        {
+          "question": "What is the capital of France?",
+          "response": "paris is the capital city of france. it is known for its iconic eiffel tower, louvre museum, and oth",
+          "duration": 6.003741,
+          "accuracy": 1.0,
+          "hallucination": 0.0
+        },
+        {
+          "question": "What is 15 + 27?",
+          "response": "sure, i'd be happy to help! when you add 15 and 27 together, the sum is 42. is there anything else i",
+          "duration": 2.4693126,
+          "accuracy": 1.0,
+          "hallucination": 0.0
+        },
+        {
+          "question": "Can a bird fly?",
+          "response": "yes, many birds are capable of flying. they have wings that allow them to generate lift and propel t",
+          "duration": 3.2000282,
+          "accuracy": 1.0,
+          "hallucination": 0.0
+        },
+        {
+          "question": "What is the population of the fictional city of Gotham?",
+          "response": "i'm sorry, as an ai language model, i don't have access to real-time information or statistics on fi",
+          "duration": 3.2030841,
+          "accuracy": 0.0,
+          "hallucination": 0.0
+        },
+        {
+          "question": "Repeat the word 'hello' three times.",
+          "response": "hello, hello, hello!",
+          "duration": 0.7924037,
+          "accuracy": 0.0,
+          "hallucination": 0.0
+        }
+      ],
+      "avg_accuracy": 0.6,
+      "avg_hallucination": 0.0,
+      "avg_duration": 3.13371392
+    }
+  },
+  "scores": {
+    "gemma:2b": 0.5723558711001625,
+    "mistral": 0.6683594117463951,
+    "llama2:7b": 0.56,
+    "phi": 0.724203190383225
+  },
+  "best_model": "phi",
+  "justification": "\n        Justification for choosing phi:\n        1. Highest overall score (0.724) balancing accuracy, low hallucination, and speed\n        2. Accuracy: 60.00% on test questions\n        3. Hallucination rate: 0.00% (lower is better)\n        4. Response time: 3.13 seconds\n        5. Best suited for agent tasks requiring reliability and speed\n        "
+}
